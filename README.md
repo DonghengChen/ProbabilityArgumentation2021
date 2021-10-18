@@ -60,7 +60,7 @@ python Run.py
 这样可以将测试用例减少为10%，极大提升测试速度。
 
 ## 测试结果
-笔者的测试结果可以在 **testdata/data.pkl** 中看到。如需分析读取，请参考 **testdata/dataProcess.py*。
+笔者的测试结果可以在 **testdata/data.pkl** 中看到。如需分析读取，请参考 **testdata/dataProcess.py**
 
 笔者使用的环境与配置为：
 - 操作系统： Win10 x64(家庭版)
