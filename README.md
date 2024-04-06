@@ -1,16 +1,16 @@
-#ProbabilityArgumentation2021
-##Introduction to the Code and Operating Environment
+# ProbabilityArgumentation2021#
+## Introduction to the Code and Operating Environment
 This is the accompanying code for the paper "Iterative Decomposition-Based Characterization Probabilistic Argumentation Semantic Solution Method." To run this code, you need to install the following environment (for Windows):
 
 - Python 3 (any version)
 - Java Virtual Machine (any version), ensure to set up environment variables during installation
 
-##Installing Python Dependencies
+## Installing Python Dependencies
 ~~~
 pip install networkx
 ~~~
 
-##Solving Real-world Probabilistic Argumentation Frameworks
+## Solving Real-world Probabilistic Argumentation Frameworks
 If you do not wish to conduct speed tests and merely want to solve the extension probability of a probabilistic argumentation framework using this algorithm without installing Java and related libraries, you can run the following code for a quick demonstration (download main.py):
 
 ~~~
@@ -24,7 +24,7 @@ For a specific argumentation graph, construct a directed graph G using networkx,
 
 If you wish to conduct speed tests, please refer to the following guide.
 
-##Modifying File Paths in the Code
+## Modifying File Paths in the Code
 You need to modify the file paths for cross-referencing in the code based on the directory where the code is saved. In the sixth line of the file "basicTest.py," you'll find:
 
 ~~~
@@ -39,7 +39,7 @@ command=r'"C:\Program Files\Java\jdk-16.0.2\bin\java.exe" "-javaagent:C:\Program
 
 Modify the paths in the demonstration, including the location of java.exe, IntelliJ, and the code storage location. If you are familiar with Java, you can fill it in by yourself.
 
-##Running Tests
+## Running Tests
 ~~~
 python Run.py
 ~~~
@@ -67,7 +67,7 @@ to
 
 This will reduce the test cases to 10%, greatly improving the test speed.
 
-##Test Results
+## Test Results
 The author's test results can be found in **testdata/data.pkl**. For analysis and reading, please refer to **testdata/dataProcess.py**.
 
 The environment and configuration used by the author are as follows:
